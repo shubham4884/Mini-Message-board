@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Mini Message Board</title>
+</head>
+
+<body>
+  <form method="post" action="/post-data" id="myDIV" class="header">
+    <header id="header">
+      <h1>Mini Message Board</h1>
+    </header>
+    <div>
+      <label for="name">
+        <h2>Your Name</h2>
+      </label>
+      <input type="name" id="name" style="width: 25%; height: 40px" placeholder="Please Enter Your Name" name="NAME" />
+    </div>
+    <div>
+      <label for="message">
+        <h2>Message</h2>
+      </label>
+      <input type="text" id="message" style="width: 25%; height: 100px" placeholder="Enter Your Message"
+        name="Message" />
+    </div>
+    <div>
+      <label for="date">
+        <h2>Date</h2>
+      </label>
+      <input type="date" id="date" style="width: 25%; height: 40px" placeholder="date" name="date" />
+    </div>
+
+    <input type="submit" value="submit" id="button" />
+  </form>
+
+  <table id="Message">
+    <thead id="Send Message">
+      <tr>
+        <td>NAME</td>
+        <td>Message</td>
+        <td>Date</td>
+      </tr>
+    </thead>
+    <tbody id="table-data"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>

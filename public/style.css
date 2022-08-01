@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    margin-top: 20px;
+    color: #b40303;
+    text-align: center;
+  }
+  #header{
+    background-color: rgb(188, 207, 201);
+    padding: 20px 60px;
+    border: 40%;
+  }
+  h2{
+    margin-top: 20px;
+    color: #000000;
+    text-align: center;
+  }
+  #name{
+
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+  #message{
+
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+  #date{
+
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+  #button {
+    background-color: #374245;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+    margin-left: 40%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #Message {
+    width: 70%;
+    border-collapse: collapse;
+  }
+  #Send Message {
+    background-color: var(--blue);
+    color: var(--white);
+  }
